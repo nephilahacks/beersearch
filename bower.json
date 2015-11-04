@@ -1,0 +1,13 @@
+{
+  "name": "beersearch",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nephilahacks/beersearch",
+  "authors": [
+    "Nephila"
+  ],
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.7"
+  }
+}
