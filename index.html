@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="beerapp">
+  <head>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="js/services/beerclient.js"></script>
+    <script src="js/directives/beerdetails.js"></script>
+    <script src="js/app.js"></script>
+    <title>Beer app search</title>
+  </head>
+  <body ng-controller="beerCtrl">
+    <p>Search your beer:</p>
+    <input type="text" name="beer" ng-model="beerquery">
+    <input ng-disabled="!beerquery" type="button" value="Search" ng-click="searchBeer()">
+    <beer-details ng-show="fetchedBeer" ng-model="fetchedBeer"></beer-details>
+  </body>
+</html>
