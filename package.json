@@ -1,7 +1,7 @@
 {
   "name": "beer-app",
   "version": "1.0.0",
-  "description": "Minimal app written in Angular + Electron to search your favourite beers!",
+  "description": "Minimal app written in Angular + Electron to for search your favourite beers!",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
