@@ -1,6 +1,6 @@
 # Beer Search App
 
-Minimal app written in Angular + Electron to search your favourite beers!
+Minimal app written in Angular + Electron to search for your favourite beers!
 
 ## Install
 
