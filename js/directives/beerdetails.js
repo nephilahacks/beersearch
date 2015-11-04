@@ -1,4 +1,4 @@
-angular.module('beerapp.directives.beerdetails', [])
+angular.module('beerapp.directives.beerdetails', ['beerapp.filters.abv', 'beerapp.filters.country'])
 .directive('beerDetails', function () {
   return {
     restrict: "AE",
